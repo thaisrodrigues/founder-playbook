@@ -8,7 +8,7 @@
 
 ## The strategy in one line
 
-One free app for **solo técnicos de climatização** in Brazil, subscription sold outside the app stores at **R$129/mês via Pix (Asaas)** — reach **210 paying clients (~2 sales per working day)** by month 6.
+One free app for **solo técnicos de climatização** in Brazil, subscription sold outside the app stores at **R$129/mês via Pix (Asaas)** — reach **250 paying clients (~2–3 sales per working day)** by month 6. (Target raised from 210 to 250 so the goal still holds after paying partner commissions — see the ramp.)
 
 ## Why not a classic paid app
 
@@ -37,35 +37,36 @@ Incumbents (Auvo, Field Control, Produttivo) price for companies with teams; the
 - **R$129/mês** standard · **R$79/mês founder rate, lifetime, first 30 only** (pre-sale engine)
 - **R$1.290/ano** from month 4 — annual cash upfront is what funds ads within the 30-day payback rule (money-models)
 - Billing via Asaas (Pix + cartão), app unlocks via backend, no purchase links in-app → no store commission, revenue in BRL, no FX/payout lag
+- **Store-rules risk (iOS):** removing purchase links does *not* guarantee compliance — Apple's App Review Guidelines (3.1.1 / 3.1.3) can require in-app purchase for single-user subscriptions, and "web-only unlock" apps sometimes pass review and sometimes get rejected. The primary funnel here sells on the web *before* install (pre-sale + partners), which helps but is not a safe harbor. **Contingency:** if Apple blocks the iOS build, enable IAP on iOS at R$159/mês (grossing up Apple's 15%) while keeping R$129 on web/Android; if ~40% of subs end up on iOS IAP, that costs ≈ R$1.6k/mo at month 6 — absorbed by the raised 250-client target.
 - Stack: Expo/React Native + Supabase + Asaas
 
 ## The ramp
 
-| Month | Paying | Gross/mo | Cumulative gross |
-|---|---:|---:|---:|
-| M1 | 10 founders | R$790 | R$790 |
-| M2 | 35 | R$3.015 | R$3.805 |
-| M3 | 70 | R$7.530 | R$11.335 |
-| M4 | 110 | R$12.690 | R$24.025 |
-| M5 | 160 | R$19.140 | R$43.165 |
-| M6 | 210 | R$25.590 | R$68.755 |
+| Month | Paying | Gross/mo | Partner commission | Cumulative gross |
+|---|---:|---:|---:|---:|
+| M1 | 10 founders | R$790 | — | R$790 |
+| M2 | 40 | R$3.660 | — | R$4.450 |
+| M3 | 80 | R$8.820 | — | R$13.270 |
+| M4 | 130 | R$15.270 | −R$774 | R$28.540 |
+| M5 | 190 | R$23.010 | −R$2.477 | R$51.550 |
+| M6 | 250 | R$30.750 | −R$5.108 | R$82.300 |
 
-Net of Asaas ~2%, Simples ~7% (Anexo III via fator R), ~R$400/mo tools → cumulative net ≈ **R$60k ≈ US$10–11k**; month-6 run-rate ≈ **R$22,9k líquido**. At 8% monthly churn, month-5 needs ~62 gross sales to net +50 — still <3/working day.
+Commission column assumes the partner channel goes live in M4 and partner-attributed clients grow to **60% of standard-rate clients by M6**, each paying the 30% rev-share (first 12 months). Net of Asaas ~2%, Simples ~7% (Anexo III via fator R), ~R$400/mo tools **and these commissions** → cumulative net ≈ **R$64k ≈ US$11–12k**; month-6 run-rate ≈ **R$22,5k líquido com comissões pagas** — the R$20k/month goal holds. At 8% monthly churn, month-5 needs ~70 gross sales to net +60 — ~3/working day.
 
 ## Month by month
 
 - **M0 wk 1–2 — validate, zero code.** Interview 15 of 25 sourced técnicos (Mom Test rules — last three jobs, how the orçamento went out, lost-track clients). **Gate: ≥8/15 say "eu sei que perco manutenção", else switch to empreiteiros de pequena obra.**
 - **M0 wk 3–4 — pre-sell.** One-page site, founder pricing, Pix button. **Gate: 10 paid pre-sales before writing the second screen.**
 - **M1 — ship v1 in 4 weeks.** Orçamento+PDF+WhatsApp only. Target 10 paying.
-- **M2 — retention before growth.** Ship reminders; churn >12%/mo = product problem, fix before traffic. Start channel tests. Target 35.
-- **M3 — find the channel.** Bullseye: 3 channels × 2 weeks × R$500. **Gate: ≥5 paying from one channel; cumulative ≥R$11k or change ONE variable.** Target 70.
-- **M4 — double down + annual.** First two rev-share partners. Target 110.
-- **M5 — scale.** 3–5 partners, referral ("indique um colega, ganhe um mês"), ads only if payback <30 days. Target 160.
-- **M6 — hold.** 210 clients, both goals met.
+- **M2 — retention before growth.** Ship reminders; churn >12%/mo = product problem, fix before traffic. Start channel tests. Target 40.
+- **M3 — find the channel.** Bullseye: 3 channels × 2 weeks × R$500. **Gate: ≥5 paying from one channel; cumulative ≥R$13k or change ONE variable.** Target 80.
+- **M4 — double down + annual.** First two rev-share partners. Target 130.
+- **M5 — scale.** 3–5 partners, referral ("indique um colega, ganhe um mês"), ads only if payback <30 days. Target 190.
+- **M6 — hold.** 250 clients, both goals met with commissions paid.
 
 ## Channels (bet order)
 
-1. **Rev-share with refrigeração course sellers / técnico influencers** — 30% recurring × 12 months. Five partners × 40 conversions = the whole goal.
+1. **Rev-share with refrigeração course sellers / técnico influencers** — 30% recurring × 12 months (this payout is deducted in the ramp math above). Five partners × 40–50 conversions ≈ the partner share of the goal.
 2. Organic Reels/TikTok — the orçamento generated on a real job, PT-BR.
 3. WhatsApp/Facebook groups of técnicos.
 
@@ -74,8 +75,8 @@ Pass bar per test: ≥5 paying clients in 2 weeks.
 ## Kill criteria (non-negotiable)
 
 - End of M0 without 10 pre-pays → **switch niche, not features**.
-- End of M3 below R$11k cumulative → change one variable (price, niche, or channel — never all three).
-- End of M4 below R$9k/mo gross → deadline is gone; consciously extend to 9–12 months or add service income. Never drift.
+- End of M3 below R$13k cumulative → change one variable (price, niche, or channel — never all three).
+- End of M4 below R$11k/mo gross → deadline is gone; consciously extend to 9–12 months or add service income. Never drift.
 
 ## Plumbing (where líquido is won)
 
