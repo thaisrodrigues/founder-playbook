@@ -57,9 +57,9 @@ Commission column assumes the partner channel goes live in M4 and partner-attrib
 
 ## Month by month
 
-- **M0 wk 1–2 — validate, zero code.** Interview 15 of 25 sourced técnicos (Mom Test rules — last three jobs, how the orçamento went out, lost-track clients). **Gate: ≥8/15 say "eu sei que perco manutenção", else switch to empreiteiros de pequena obra.**
-- **M0 wk 3–4 — pre-sell.** One-page site, founder pricing, Pix button. **Gate: 10 paid pre-sales before writing the second screen.**
-- **M1 — ship v1 in 4 weeks.** Orçamento+PDF+WhatsApp only. Target 10 paying.
+- **M1 wk 1 — validate, zero code.** Interview 15 of 25 sourced técnicos (Mom Test rules — last three jobs, how the orçamento went out, lost-track clients). **Gate: ≥8/15 say "eu sei que perco manutenção", else switch to empreiteiros de pequena obra.**
+- **M1 wk 2 — pre-sell.** One-page site, founder pricing, Pix button. **Gate: 10 paid pre-sales before writing the second screen** — these are the 10 founders in the M1 row.
+- **M1 wk 3–4 — ship v1.** Orçamento+PDF+WhatsApp only, nothing else; deliver to the 10 founders by the last day of M1. The clock starts on day 1 of M1 — there is no uncounted setup month, so the whole plan is six elapsed months.
 - **M2 — retention before growth.** Ship reminders; churn >12%/mo = product problem, fix before traffic. Start channel tests. Target 40.
 - **M3 — find the channel.** Bullseye: 3 channels × 2 weeks × R$500. **Gate: ≥5 paying from one channel; cumulative ≥R$13k or change ONE variable.** Target 80.
 - **M4 — double down + annual.** First two rev-share partners. Target 130.
@@ -76,18 +76,18 @@ Pass bar per test: ≥5 paying clients in 2 weeks.
 
 ## Kill criteria (non-negotiable)
 
-- End of M0 without 10 pre-pays → **switch niche, not features**.
+- End of M1 week 2 without 10 pre-pays → **switch niche, not features**.
 - End of M3 below R$13k cumulative → change one variable (price, niche, or channel — never all three).
 - End of M4 below R$11k/mo gross → deadline is gone; consciously extend to 9–12 months or add service income. Never drift.
 
 ## Plumbing (where líquido is won)
 
-- Skip MEI (R$81k/yr ceiling breaks by M4). Open **ME no Simples Nacional** now, CNAE 6201-5/01.
+- Skip MEI (R$81k/yr ceiling breaks by M4). Open **ME no Simples Nacional** now. Let the contador pick the CNAE for licensed, non-customizable software / SaaS (likely 6203-1/00, not 6201-5/01, which is *sob encomenda* custom development) and confirm it is Simples-eligible and lands in Anexo III via fator R in your município.
 - **Fator R:** pró-labore ≥28% of revenue → Anexo III ~6% vs Anexo V ~15.5%. The pró-labore is your own paycheck, but budget its INSS/IRPF — already deducted in the take-home math above. Even with those taxes, Anexo III + pró-labore beats Anexo V at these revenue levels; confirm with a contador who has SaaS clients.
 - Pix via Asaas settles in days, in BRL. Stores are distribution only.
 - Costs: Apple US$99/yr + Play US$25 + Supabase/EAS/domain ≈ R$400/mo; channel tests ≈ R$1.5k once.
 
-## Interview script (M0)
+## Interview script (M1 week 1)
 
 1. Me conta seu último orçamento — como você mandou?
 2. Quantos clientes de instalação você tem no total? Quantos voltaram pra limpeza?
