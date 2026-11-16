@@ -51,7 +51,9 @@ Incumbents (Auvo, Field Control, Produttivo) price for companies with teams; the
 | M5 | 190 | R$23.010 | −R$2.477 | R$51.550 |
 | M6 | 250 | R$30.750 | −R$5.108 | R$82.300 |
 
-Commission column assumes the partner channel goes live in M4 and partner-attributed clients grow to **60% of standard-rate clients by M6**, each paying the 30% rev-share (first 12 months). Net of Asaas ~2%, Simples ~7% (Anexo III via fator R), ~R$400/mo tools **and these commissions** → cumulative net ≈ **R$64k ≈ US$11–12k**; month-6 run-rate ≈ **R$22,5k líquido com comissões pagas** — the R$20k/month goal holds. At 8% monthly churn, month-5 needs ~70 gross sales to net +60 — ~3/working day.
+Commission column assumes the partner channel goes live in M4 and partner-attributed clients grow to **60% of standard-rate clients by M6 (~130 actives)**, each paying the 30% rev-share (first 12 months). Net of Asaas ~2%, Simples ~7% (Anexo III via fator R), ~R$400/mo tools **and these commissions** → business surplus ≈ **R$64k cumulative, ~R$22,5k/mo at M6**.
+
+**What "líquido" means here: founder take-home, not accounting profit.** Fator R requires paying yourself pró-labore ≥28% of revenue (~R$8,6k/mo at M6). That is your own paycheck, not a lost cost — but it carries ~11% INSS plus IRPF (~R$2,0k/mo at M6), while profit distributions on top are tax-exempt at these values. **Founder take-home ≈ R$20,4k/mo at M6** — the goal clears, with thin headroom — and **cumulative take-home ≈ R$59–60k ≈ US$11k** over the six months. At 8% monthly churn, month-5 needs ~70 gross sales to net +60 — ~3/working day.
 
 ## Month by month
 
@@ -62,11 +64,11 @@ Commission column assumes the partner channel goes live in M4 and partner-attrib
 - **M3 — find the channel.** Bullseye: 3 channels × 2 weeks × R$500. **Gate: ≥5 paying from one channel; cumulative ≥R$13k or change ONE variable.** Target 80.
 - **M4 — double down + annual.** First two rev-share partners. Target 130.
 - **M5 — scale.** 3–5 partners, referral ("indique um colega, ganhe um mês"), ads only if payback <30 days. Target 190.
-- **M6 — hold.** 250 clients, both goals met with commissions paid.
+- **M6 — hold.** 250 clients, both goals met — commissions and pró-labore taxes paid.
 
 ## Channels (bet order)
 
-1. **Rev-share with refrigeração course sellers / técnico influencers** — 30% recurring × 12 months (this payout is deducted in the ramp math above). Five partners × 40–50 conversions ≈ the partner share of the goal.
+1. **Rev-share with refrigeração course sellers / técnico influencers** — 30% recurring × 12 months (deducted in the ramp math above). **3–4 partners × 30–40 conversions ≈ the ~130 partner-attributed actives the commission model assumes**; direct channels (pre-sale cohort, Reels, groups, referral) must supply the other half. If partners overdeliver, commissions scale with them (≈ +R$2,6k/mo at M6 if partner actives hit 200) — acceptable, since 70%-margin revenue beats none, but re-run the take-home math before raising spend.
 2. Organic Reels/TikTok — the orçamento generated on a real job, PT-BR.
 3. WhatsApp/Facebook groups of técnicos.
 
@@ -81,7 +83,7 @@ Pass bar per test: ≥5 paying clients in 2 weeks.
 ## Plumbing (where líquido is won)
 
 - Skip MEI (R$81k/yr ceiling breaks by M4). Open **ME no Simples Nacional** now, CNAE 6201-5/01.
-- **Fator R:** pró-labore ≥28% of revenue → Anexo III → ~6% vs ~15.5%. Confirm with a contador who has SaaS clients.
+- **Fator R:** pró-labore ≥28% of revenue → Anexo III ~6% vs Anexo V ~15.5%. The pró-labore is your own paycheck, but budget its INSS/IRPF — already deducted in the take-home math above. Even with those taxes, Anexo III + pró-labore beats Anexo V at these revenue levels; confirm with a contador who has SaaS clients.
 - Pix via Asaas settles in days, in BRL. Stores are distribution only.
 - Costs: Apple US$99/yr + Play US$25 + Supabase/EAS/domain ≈ R$400/mo; channel tests ≈ R$1.5k once.
 
