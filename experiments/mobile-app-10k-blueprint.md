@@ -8,7 +8,7 @@
 
 ## The strategy in one line
 
-One free app for **solo técnicos de climatização** in Brazil, subscription sold outside the app stores at **R$129/mês via Pix (Asaas)** — reach **250 paying clients (~2–3 sales per working day)** by month 6. (Target raised from 210 to 250 so the goal still holds after paying partner commissions — see the ramp.)
+One free app for **solo técnicos de climatização** in Brazil, subscription sold outside the app stores at **R$129/mês via Pix (Asaas)** — reach **260 paying clients (~3 sales per working day at peak)** by month 6. (Target raised from the original 210 so the goal survives partner commissions, contador fees and pró-labore taxes — see the ramp.)
 
 ## Why not a classic paid app
 
@@ -37,7 +37,7 @@ Incumbents (Auvo, Field Control, Produttivo) price for companies with teams; the
 - **R$129/mês** standard · **R$79/mês founder rate, lifetime, first 30 only** (pre-sale engine)
 - **R$1.290/ano** from month 4 — annual cash upfront is what funds ads within the 30-day payback rule (money-models)
 - Billing via Asaas (Pix + cartão), app unlocks via backend, no purchase links in-app → no store commission, revenue in BRL, no FX/payout lag
-- **Store-rules risk (iOS):** removing purchase links does *not* guarantee compliance — Apple's App Review Guidelines (3.1.1 / 3.1.3) can require in-app purchase for single-user subscriptions, and "web-only unlock" apps sometimes pass review and sometimes get rejected. The primary funnel here sells on the web *before* install (pre-sale + partners), which helps but is not a safe harbor. **Contingency:** if Apple blocks the iOS build, enable IAP on iOS at R$159/mês (grossing up Apple's 15%) while keeping R$129 on web/Android; if ~40% of subs end up on iOS IAP, that costs ≈ R$1.6k/mo at month 6 — absorbed by the raised 250-client target.
+- **Store-rules risk (iOS):** removing purchase links does *not* guarantee compliance — Apple's App Review Guidelines (3.1.1 / 3.1.3) can require in-app purchase for single-user subscriptions, and "web-only unlock" apps sometimes pass review and sometimes get rejected. The primary funnel here sells on the web *before* install (pre-sale + partners), which helps but is not a safe harbor. **Contingency:** if Apple blocks the iOS build, enable IAP on iOS at R$159/mês while keeping R$129 on web/Android — at R$159, Apple's 15% cut (R$23,85) is fully covered by the R$30 uplift, so this contingency is roughly cost-neutral per subscriber; the real cost is conversion drag from the higher iOS price. If Apple instead forces price parity at R$129, the 15% cut ≈ R$1,6k/mo at month 6 — that scenario needs ~15 extra clients or a stronger annual push to keep the exit goal.
 - Stack: Expo/React Native + Supabase + Asaas
 
 ## The ramp
@@ -48,12 +48,12 @@ Incumbents (Auvo, Field Control, Produttivo) price for companies with teams; the
 | M2 | 40 | R$3.660 | — | R$4.450 |
 | M3 | 80 | R$8.820 | — | R$13.270 |
 | M4 | 130 | R$15.270 | −R$774 | R$28.540 |
-| M5 | 190 | R$23.010 | −R$2.477 | R$51.550 |
-| M6 | 250 | R$30.750 | −R$5.108 | R$82.300 |
+| M5 | 195 | R$23.655 | −R$2.554 | R$52.195 |
+| M6 | 260 | R$32.040 | −R$5.341 | R$84.235 |
 
-Commission column assumes the partner channel goes live in M4 and partner-attributed clients grow to **60% of standard-rate clients by M6 (~130 actives)**, each paying the 30% rev-share (first 12 months). Net of Asaas ~2%, Simples ~7% (Anexo III via fator R), ~R$400/mo tools **and these commissions** → business surplus ≈ **R$64k cumulative, ~R$22,5k/mo at M6**.
+Commission column assumes the partner channel goes live in M4 and partner-attributed clients grow to **60% of standard-rate clients by M6 (~140 actives)**, each paying the 30% rev-share (first 12 months). Net of Asaas ~2%, Simples ~7% (Anexo III via fator R), ~R$400/mo tools, **~R$500/mo contador with full escrituração (see plumbing)** and these commissions → business surplus ≈ **R$62,6k cumulative, ~R$22,9k/mo at M6**.
 
-**What "líquido" means here: founder take-home, not accounting profit.** Fator R requires paying yourself pró-labore ≥28% of revenue (~R$8,6k/mo at M6). That is your own paycheck, not a lost cost — but it carries ~11% INSS plus IRPF (~R$2,0k/mo at M6), while profit distributions on top are tax-exempt at these values. **Founder take-home ≈ R$20,4k/mo at M6** — the goal clears, with thin headroom — and **cumulative take-home ≈ R$59–60k ≈ US$11k** over the six months. At 8% monthly churn, month-5 needs ~70 gross sales to net +60 — ~3/working day.
+**What "líquido" means here: founder take-home, not accounting profit.** Fator R requires paying yourself pró-labore ≥28% of revenue (~R$9,0k/mo at M6). That is your own paycheck, not a lost cost — but it carries ~11% INSS plus IRPF (~R$2,2k/mo at M6), while profit distributions on top stay tax-exempt **only if the books prove the profit** (see plumbing). **Founder take-home ≈ R$20,7k/mo at M6** and **cumulative take-home ≈ R$57–58k ≈ US$10,5k** over the six months. At 8% monthly churn, month-6 needs ~80 gross sales to net +65 — ~3–4/working day at peak.
 
 ## Month by month
 
@@ -63,12 +63,12 @@ Commission column assumes the partner channel goes live in M4 and partner-attrib
 - **M2 — retention before growth.** Ship reminders; churn >12%/mo = product problem, fix before traffic. Start channel tests. Target 40.
 - **M3 — find the channel.** Bullseye: 3 channels × 2 weeks × R$500. **Gate: ≥5 paying from one channel; cumulative ≥R$13k or change ONE variable.** Target 80.
 - **M4 — double down + annual.** First two rev-share partners. Target 130.
-- **M5 — scale.** 3–5 partners, referral ("indique um colega, ganhe um mês"), ads only if payback <30 days. Target 190.
-- **M6 — hold.** 250 clients, both goals met — commissions and pró-labore taxes paid.
+- **M5 — scale.** 3–5 partners, referral ("indique um colega, ganhe um mês"), ads only if payback <30 days. Target 195.
+- **M6 — hold.** 260 clients, both goals met — commissions, contador and pró-labore taxes paid.
 
 ## Channels (bet order)
 
-1. **Rev-share with refrigeração course sellers / técnico influencers** — 30% recurring × 12 months (deducted in the ramp math above). **3–4 partners × 30–40 conversions ≈ the ~130 partner-attributed actives the commission model assumes**; direct channels (pre-sale cohort, Reels, groups, referral) must supply the other half. If partners overdeliver, commissions scale with them (≈ +R$2,6k/mo at M6 if partner actives hit 200) — acceptable, since 70%-margin revenue beats none, but re-run the take-home math before raising spend.
+1. **Rev-share with refrigeração course sellers / técnico influencers** — 30% recurring × 12 months (deducted in the ramp math above). **3–4 partners × 30–40 conversions ≈ the ~140 partner-attributed actives the commission model assumes**; direct channels (pre-sale cohort, Reels, groups, referral) must supply the other half. If partners overdeliver, commissions scale with them (≈ +R$2,6k/mo at M6 if partner actives hit 200) — acceptable, since 70%-margin revenue beats none, but re-run the take-home math before raising spend.
 2. Organic Reels/TikTok — the orçamento generated on a real job, PT-BR.
 3. WhatsApp/Facebook groups of técnicos.
 
@@ -85,7 +85,8 @@ Pass bar per test: ≥5 paying clients in 2 weeks.
 - Skip MEI (R$81k/yr ceiling breaks by M4). Open **ME no Simples Nacional** now. Let the contador pick the CNAE for licensed, non-customizable software / SaaS (likely 6203-1/00, not 6201-5/01, which is *sob encomenda* custom development) and confirm it is Simples-eligible and lands in Anexo III via fator R in your município.
 - **Fator R:** pró-labore ≥28% of revenue → Anexo III ~6% vs Anexo V ~15.5%. The pró-labore is your own paycheck, but budget its INSS/IRPF — already deducted in the take-home math above. Even with those taxes, Anexo III + pró-labore beats Anexo V at these revenue levels; confirm with a contador who has SaaS clients.
 - Pix via Asaas settles in days, in BRL. Stores are distribution only.
-- Costs: Apple US$99/yr + Play US$25 + Supabase/EAS/domain ≈ R$400/mo; channel tests ≈ R$1.5k once.
+- **Full escrituração contábil from day 1**, not just the livro-caixa: Simples profit distributions above the presumed-profit floor (32% of receita for services) are tax-exempt only when complete accounting books demonstrate the higher real profit. That is why the contador must do full bookkeeping — budget ~R$500/mo for it, already deducted in the take-home math.
+- Costs: Apple US$99/yr + Play US$25 + Supabase/EAS/domain ≈ R$400/mo; contador com escrituração completa ≈ R$500/mo; channel tests ≈ R$1.5k once.
 
 ## Interview script (M1 week 1)
 
